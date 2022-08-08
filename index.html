@@ -19,11 +19,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link href="script.js">
     <title>Palpable Planner</title>
   </head>
   <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script><script src="scriptjs"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
@@ -33,7 +32,7 @@
       <!-- Timeblocks go here -->
       <div class="hour timeblocks">9am</div>
       <div class="event-content"></div>
-      <div class="btn"><button class="saveBtn">SAVE</button></div>
+      <div class="btn"><button class="saveBtn" onclick="saveEvent()">SAVE</button></div>
       <div class="hour">10am</div>
       <div class="event-content"></div>
       <div class="btn"><button class="saveBtn">SAVE</button></div>
@@ -59,7 +58,7 @@
       <div class="event-content"></div>
       <div class="btn"><button class="saveBtn">SAVE</button></div>
     </div>
-
+    <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </body>
 </html>
